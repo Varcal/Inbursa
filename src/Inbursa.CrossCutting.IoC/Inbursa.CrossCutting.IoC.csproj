@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Inbursa.Application\Inbursa.Application.csproj" />
+    <ProjectReference Include="..\Inbursa.Domain\Inbursa.Domain.csproj" />
+    <ProjectReference Include="..\Inbursa.Infra.Data\Inbursa.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
